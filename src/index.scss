@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prompt&display=swap');
+@import "bootstrap/scss/bootstrap.scss";
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #A4907C;
+    color: #fff;
+
+}
+
+.container
+{
+    max-width: 800px;
+    margin: 10px auto;
+
+}
+
+
+
+.card-grid
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
